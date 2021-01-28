@@ -19,6 +19,8 @@ The majority of the script is either documentation, comments, or actionable erro
 ## iCloud and iMessage connectivity and NVRAM
 
 iCloud, iMessage, and other connected Apple services require a valid device name and serial number, board ID and serial number, and other genuine (or genuine-like) Apple parameters. These can be set in NVRAM by editing the script. See the [documentation command](#documentation) for further information.
+after installing and booting up successfully download clover configurator. and on smbios option generate smbios for macbook pro 11,2
+copy the information and edit the script changing values for serial number and bios version and more required variables to function imessage.
 
 ## Storage size
 
@@ -77,3 +79,4 @@ Supported versions:
 * GNU `coreutils` ≥ 8.22, GNU `gzip` ≥ 1.5, Info-ZIP `unzip` ≥ v6.0, GNU `wget` ≥ 1.14, `xxd` ≥ 1.11
 * `dmg2img` ≥ 1.6.5, on Cygwin the package is not available through the package manager so the script downloads it automatically.
 * `tesseract-ocr` ≥ 4
+
