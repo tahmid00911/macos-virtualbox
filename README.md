@@ -22,6 +22,8 @@ iCloud, iMessage, and other connected Apple services require a valid device name
 after installing and booting up successfully download clover configurator. and on smbios option generate smbios for macbook pro 11,2
 copy the information and edit the script changing values for serial number and bios version and more required variables to function imessage.
 
+To create New Apple ID with @icloud extension. Add new user to MacOS then Create Apple ID on First Prompt
+
 ## Storage size
 
 The script by default assigns a target virtual disk storage size of 80GB, which is populated to about 25GB on the host on initial installation. After the installation is complete, the storage size may be increased. See the [documentation command](#documentation) for further information.
